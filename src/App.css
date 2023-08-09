@@ -33,6 +33,28 @@ body {
 
   }
 
+  .social-icons {
+    display: flex;
+    gap: 7%;
+    margin: 0px auto 10%;
+    justify-content: center;
+   
+}
+
+.fab {
+  color: black;
+  text-decoration: none;
+
+}
+
+.fab:hover{
+    color: blue;
+    transform: scale(2);
+    
+   }
+
+
+
   @media (max-width: 700px ) {
 
     .frame-div{
