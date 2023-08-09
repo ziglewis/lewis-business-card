@@ -1,64 +1,27 @@
-/* .App {
-  text-align: center;
+body {
+  
+  box-sizing: border-box;
+  padding: 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
 .frame-div{display: flex;
-
-
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: max-content;
+  width: 650px;
   background-image: url("slash.png");
   border: 8px solid burlywood;
   border-radius: 10px;
+  text-align: center;
+  padding: 3px;
 
 }
 
 
 .images{
   width: 250px;
-  /* padding-left: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 15px; */
-  padding: 25px 15px 25px 25px
+  padding: 25px 15px 25px 25px;
+  border-radius: 30px;
+
 }
 
   .text{text-align: center;
@@ -67,5 +30,23 @@
       border: none;
       margin-top: 15px;
       font-family:Arial, Helvetica, sans-serif
+
+  }
+
+  @media (max-width: 700px ) {
+
+    .frame-div{
+      flex-direction: column;
+      width: fit-content;
+      padding-bottom: 20px;
+    }
+
+
+    .images{
+      width: 80%;
+      padding: 25px;
+      margin-bottom: -30px;
+      border-radius: 50%;
+    }
 
   }
