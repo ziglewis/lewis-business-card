@@ -1,3 +1,4 @@
+import React from 'react';
 
 import Photo from './lewisz.jpg'    
 // import profile from '../images/profile.jpg';
